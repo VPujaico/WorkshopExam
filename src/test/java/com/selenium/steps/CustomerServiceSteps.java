@@ -48,7 +48,7 @@ public class CustomerServiceSteps extends TestRunner {
     @Then("verify that the first five products displayed are the cheapest")
     public void verifyThatTheFirstFiveProductsDisplayedAreTheCheapest(DataTable cheapestProducts){
         Assert.assertTrue(searchingPage.verifyThatMyListOfProductsMatchWithTheFirstNProducts(cheapestProducts), "the order has been validated");
-        System.out.println("\nThe list of cheapest products match with the first " + (cheapestProducts.asList().size() - 1) + " product results");
+        System.out.println("\n7-\tThe list of cheapest products match with the first " + (cheapestProducts.asList().size() - 1) + " product results");
     }
 
     @After
