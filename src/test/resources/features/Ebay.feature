@@ -15,10 +15,10 @@ Feature: Search Functionality
     Then verify that the first five products displayed are the cheapest
       |cheapestProducts |
       |Zapatos Puma De Alta Calidad  |
+      |Puma Adultos Unisex leadcat Verano Playa Deportes Correa Diapositiva Sandalias Zapatos Negro.  |
       |Puma Golf para hombres Bunki Chanclas Sandalias Piscina Zapatos blanco flecos  |
       |Las diapositivas del gato Puma plomo (36026302) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva  |
       |Las diapositivas del gato Puma plomo (36026301) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva  |
-      |Las diapositivas del gato Puma plomo (36026308) Deportes Sandalias Flip Flop Zapatos Zapatillas diapositiva  |
     Examples:
       |productName |brandName |sizeProduct |
       |shoes  |PUMA |10 |
